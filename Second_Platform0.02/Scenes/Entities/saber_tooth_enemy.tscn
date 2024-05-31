@@ -1,0 +1,131 @@
+[gd_scene load_steps=30 format=3 uid="uid://b14q5wl5f5twu"]
+
+[ext_resource type="Texture2D" uid="uid://bamwhpk44bxvu" path="res://Sprites/EpisodeSeven/01-Idle/Idle 01.png" id="1_0bldr"]
+[ext_resource type="Script" path="res://Scripts/Enemies/Sabertooth.gd" id="1_plvlp"]
+[ext_resource type="Texture2D" uid="uid://cfpihjoiwa0tx" path="res://Sprites/EpisodeSeven/01-Idle/Idle 02.png" id="2_7dji1"]
+[ext_resource type="Texture2D" uid="uid://mjih8apbvr04" path="res://Sprites/EpisodeSeven/01-Idle/Idle 03.png" id="3_ogetl"]
+[ext_resource type="Texture2D" uid="uid://dp286yq0mh3bh" path="res://Sprites/EpisodeSeven/01-Idle/Idle 04.png" id="4_403cv"]
+[ext_resource type="Texture2D" uid="uid://b7gpn14tudsin" path="res://Sprites/EpisodeSeven/01-Idle/Idle 05.png" id="5_cvmss"]
+[ext_resource type="Texture2D" uid="uid://c2rt0xevxleuu" path="res://Sprites/EpisodeSeven/01-Idle/Idle 06.png" id="6_8jkjs"]
+[ext_resource type="Texture2D" uid="uid://ckruo3o5uktru" path="res://Sprites/EpisodeSeven/01-Idle/Idle 07.png" id="7_ykrlo"]
+[ext_resource type="Texture2D" uid="uid://byp7p0vm0v7sf" path="res://Sprites/EpisodeSeven/01-Idle/Idle 08.png" id="8_7xt41"]
+[ext_resource type="Texture2D" uid="uid://m4ch3h02ne3s" path="res://Sprites/EpisodeSeven/02-Run/Run 01.png" id="9_v5to3"]
+[ext_resource type="Texture2D" uid="uid://b1ccorl52vv8t" path="res://Sprites/EpisodeSeven/02-Run/Run 02.png" id="10_irnw8"]
+[ext_resource type="Texture2D" uid="uid://b7ppj0vhypk8s" path="res://Sprites/EpisodeSeven/02-Run/Run 03.png" id="11_pjvy7"]
+[ext_resource type="Texture2D" uid="uid://bt7507404smhf" path="res://Sprites/EpisodeSeven/02-Run/Run 04.png" id="12_rb7po"]
+[ext_resource type="Texture2D" uid="uid://bpafqb8cl7a0v" path="res://Sprites/EpisodeSeven/02-Run/Run 05.png" id="13_e2b0n"]
+[ext_resource type="Texture2D" uid="uid://5nj4cy1554l2" path="res://Sprites/EpisodeSeven/02-Run/Run 06.png" id="14_645m1"]
+[ext_resource type="Texture2D" uid="uid://b3ex6yfjn4d1d" path="res://Sprites/EpisodeSeven/08-Hit/Hit 01.png" id="15_50t23"]
+[ext_resource type="Texture2D" uid="uid://bfby3ibuw7e7x" path="res://Sprites/EpisodeSeven/08-Hit/Hit 02.png" id="16_mj2la"]
+[ext_resource type="Texture2D" uid="uid://b8t13hrl42mds" path="res://Sprites/EpisodeSeven/08-Hit/Hit 03.png" id="17_vqcj3"]
+[ext_resource type="Texture2D" uid="uid://cfops4ivsynbo" path="res://Sprites/EpisodeSeven/08-Hit/Hit 04.png" id="18_ikfdc"]
+[ext_resource type="Texture2D" uid="uid://d0pf6du1lqaji" path="res://Sprites/EpisodeSeven/09-Dead Hit/Dead Hit 01.png" id="19_tbvx2"]
+[ext_resource type="Texture2D" uid="uid://cfxswtsdpca22" path="res://Sprites/EpisodeSeven/09-Dead Hit/Dead Hit 02.png" id="20_iwoqy"]
+[ext_resource type="Texture2D" uid="uid://bn512rou0vs1s" path="res://Sprites/EpisodeSeven/09-Dead Hit/Dead Hit 03.png" id="21_qif54"]
+[ext_resource type="Texture2D" uid="uid://dbap8w7lnub8b" path="res://Sprites/EpisodeSeven/09-Dead Hit/Dead Hit 04.png" id="22_pfjro"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_as4gn"]
+size = Vector2(23, 23)
+
+[sub_resource type="Animation" id="Animation_un4o5"]
+resource_name = "Idle"
+length = 0.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_0bldr"), ExtResource("2_7dji1"), ExtResource("3_ogetl"), ExtResource("4_403cv"), ExtResource("5_cvmss"), ExtResource("6_8jkjs"), ExtResource("7_ykrlo"), ExtResource("8_7xt41")]
+}
+
+[sub_resource type="Animation" id="Animation_uv0sv"]
+resource_name = "Run"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("9_v5to3"), ExtResource("10_irnw8"), ExtResource("11_pjvy7"), ExtResource("12_rb7po"), ExtResource("13_e2b0n"), ExtResource("14_645m1")]
+}
+
+[sub_resource type="Animation" id="Animation_lcdtb"]
+resource_name = "Hit"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("15_50t23"), ExtResource("16_mj2la"), ExtResource("17_vqcj3"), ExtResource("18_ikfdc")]
+}
+
+[sub_resource type="Animation" id="Animation_lnidf"]
+resource_name = "Dead_Hit"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("19_tbvx2"), ExtResource("20_iwoqy"), ExtResource("21_qif54"), ExtResource("22_pfjro")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3dr8k"]
+_data = {
+"Dead_Hit": SubResource("Animation_lnidf"),
+"Hit": SubResource("Animation_lcdtb"),
+"Idle": SubResource("Animation_un4o5"),
+"Run": SubResource("Animation_uv0sv")
+}
+
+[node name="SaberTooth_Enemy" type="CharacterBody2D"]
+script = ExtResource("1_plvlp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -13)
+texture = ExtResource("1_0bldr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.5, -11.5)
+shape = SubResource("RectangleShape2D_as4gn")
+
+[node name="Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(1.5, -11.5)
+shape = SubResource("RectangleShape2D_as4gn")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(-9, -9)
+target_position = Vector2(0, 15)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3dr8k")
+}
+autoplay = "Idle"

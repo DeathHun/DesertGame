@@ -1,0 +1,212 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715313991
+::res://Scenes/::1715313975
+::res://Scenes/Entities/::1715313975
+player.tscn::PackedScene::9050492222699354522::1715313975::0::1::::<><>::res://Scripts/Player.gd<>uid://cwpc1e36a5ic7::::res://Sprites/EpisodeOne/09-Idle Sword/Idle Sword 02.png<>uid://by0i43d2dsy8d::::res://Sprites/EpisodeTwo/11-Jump Sword/Jump Sword 01.png<>uid://cfn68x1o7kr2v::::res://Sprites/EpisodeOne/09-Idle Sword/Idle Sword 01.png<>uid://crbif3eu6yqpw::::res://Sprites/EpisodeOne/09-Idle Sword/Idle Sword 03.png<>uid://dhevufswrqeun::::res://Sprites/EpisodeOne/09-Idle Sword/Idle Sword 04.png<>uid://bfftxq83ca6bn::::res://Sprites/EpisodeOne/09-Idle Sword/Idle Sword 05.png<>uid://bt2ob6xe80gbl::::res://Sprites/EpisodeTwo/12-Fall Sword/Fall Sword 01.png<>uid://bga4goehyqjr6::::res://Sprites/EpisodeTwo/10-Run Sword/Run Sword 01.png<>uid://blgiw058nd40h::::res://Sprites/EpisodeTwo/10-Run Sword/Run Sword 02.png<>uid://dmeavyukjeixj::::res://Sprites/EpisodeTwo/10-Run Sword/Run Sword 03.png<>uid://b1jo8tsiwnyjx::::res://Sprites/EpisodeTwo/10-Run Sword/Run Sword 04.png<>uid://b1fyha18mwjli::::res://Sprites/EpisodeTwo/10-Run Sword/Run Sword 05.png<>uid://dqgmjo8co4nku::::res://Sprites/EpisodeTwo/10-Run Sword/Run Sword 06.png<>uid://d2ulduq7eiuod::::res://Sprites/EpisodeTwo/11-Jump Sword/Jump Sword 02.png<>uid://bsrjevky8ok2k::::res://Sprites/EpisodeTwo/11-Jump Sword/Jump Sword 03.png
+::res://Scenes/WorldScene/::1715313975
+level_one.tscn::PackedScene::4095245988953812992::1715313975::0::1::::<><>::uid://d17ejxaqp08vu::::res://Scenes/Entities/player.tscn<>uid://3jem7smeqs5t::::res://Sprites/EpisodeThree/Terrain/Terrain (32x32).png
+::res://Scripts/::1715313975
+Player.gd::GDScript::-1::1715313975::0::1::::<>CharacterBody2D<>::
+::res://Sprites/::1715313976
+::res://Sprites/EpisodeEight/::1715313975
+JumpPad.png::CompressedTexture2D::1619504565582818199::1715313975::1715313995::1::::<><>::
+Spikes.png::CompressedTexture2D::558409943940121929::1715313975::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/::1715313975
+::res://Sprites/EpisodeEleven/Cannon/::1715313976
+::res://Sprites/EpisodeEleven/Cannon/Cannon Ball Destroyed/::1715313975
+1.png::CompressedTexture2D::3010975307901503269::1715313975::1715313995::1::::<><>::
+2.png::CompressedTexture2D::5986475425545391634::1715313975::1715313995::1::::<><>::
+3.png::CompressedTexture2D::8778632310160085270::1715313975::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Ball Explosion/::1715313975
+1.png::CompressedTexture2D::5938496526613275145::1715313975::1715313995::1::::<><>::
+2.png::CompressedTexture2D::3616206241183382451::1715313975::1715313995::1::::<><>::
+3.png::CompressedTexture2D::7931050468179401142::1715313975::1715313995::1::::<><>::
+4.png::CompressedTexture2D::5005442279604724272::1715313975::1715313995::1::::<><>::
+5.png::CompressedTexture2D::5394120934830498305::1715313975::1715313995::1::::<><>::
+6.png::CompressedTexture2D::4955514087301641015::1715313975::1715313995::1::::<><>::
+7.png::CompressedTexture2D::8165367863066759112::1715313975::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Ball Idle/::1715313975
+1.png::CompressedTexture2D::6323331049032593750::1715313975::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Destroyed/::1715313976
+1.png::CompressedTexture2D::6109043919238706493::1715313975::1715313995::1::::<><>::
+2.png::CompressedTexture2D::3521280412493769707::1715313976::1715313995::1::::<><>::
+3.png::CompressedTexture2D::8046040054181227995::1715313976::1715313995::1::::<><>::
+4.png::CompressedTexture2D::6380584095114411969::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Fire/::1715313976
+1.png::CompressedTexture2D::6714256844483527255::1715313976::1715313995::1::::<><>::
+2.png::CompressedTexture2D::4514668126646198120::1715313976::1715313995::1::::<><>::
+3.png::CompressedTexture2D::1218956185382811732::1715313976::1715313995::1::::<><>::
+4.png::CompressedTexture2D::1826895888816449606::1715313976::1715313994::1::::<><>::
+5.png::CompressedTexture2D::4465303536948847348::1715313976::1715313994::1::::<><>::
+6.png::CompressedTexture2D::742516605682011344::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Fire Effect/::1715313976
+1.png::CompressedTexture2D::2526127170989777166::1715313976::1715313995::1::::<><>::
+2.png::CompressedTexture2D::998644428583947486::1715313976::1715313995::1::::<><>::
+3.png::CompressedTexture2D::7790188478877181764::1715313976::1715313995::1::::<><>::
+4.png::CompressedTexture2D::3753334468413237727::1715313976::1715313995::1::::<><>::
+5.png::CompressedTexture2D::3836345304783454916::1715313976::1715313995::1::::<><>::
+6.png::CompressedTexture2D::5367214742960768956::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Hit/::1715313976
+1.png::CompressedTexture2D::7844456000088383608::1715313976::1715313995::1::::<><>::
+2.png::CompressedTexture2D::4958105382275505366::1715313976::1715313995::1::::<><>::
+3.png::CompressedTexture2D::8471728110616868569::1715313976::1715313995::1::::<><>::
+4.png::CompressedTexture2D::5596073976801159874::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeEleven/Cannon/Cannon Idle/::1715313976
+1.png::CompressedTexture2D::147693104825926213::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeFifteen/::1715313976
+beaten.png::CompressedTexture2D::3356430616658950590::1715313976::1715313995::1::::<><>::
+BigWorldMap.png::CompressedTexture2D::4326279775096257226::1715313976::1715313995::1::::<><>::
+locked.png::CompressedTexture2D::1298649258750617959::1715313976::1715313995::1::::<><>::
+unlocked.png::CompressedTexture2D::1528202370512413955::1715313976::1715313995::1::::<><>::
+WorldMapLevelIcons.png::CompressedTexture2D::4350116138557208951::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeFour/::1715313976
+::res://Sprites/EpisodeFour/Chest/::1715313976
+Chest Close 01.png::CompressedTexture2D::3565756678095171151::1715313976::1715313995::1::::<><>::
+Chest Close 02.png::CompressedTexture2D::8344764809510605813::1715313976::1715313995::1::::<><>::
+Chest Close 03.png::CompressedTexture2D::2756114874044937112::1715313976::1715313995::1::::<><>::
+Chest Close 04.png::CompressedTexture2D::1310197559411535661::1715313976::1715313995::1::::<><>::
+Chest Close 05.png::CompressedTexture2D::3491794842396390340::1715313976::1715313995::1::::<><>::
+Chest Close 06.png::CompressedTexture2D::893638707396983526::1715313976::1715313995::1::::<><>::
+Chest Close 07.png::CompressedTexture2D::5412689625156594156::1715313976::1715313995::1::::<><>::
+Chest Close 08.png::CompressedTexture2D::854035436604350198::1715313976::1715313995::1::::<><>::
+Chest Close 09.png::CompressedTexture2D::5802750865084347603::1715313976::1715313995::1::::<><>::
+Chest Close 10.png::CompressedTexture2D::7331428786025897603::1715313976::1715313995::1::::<><>::
+Chest Open 01.png::CompressedTexture2D::4051423440362359302::1715313976::1715313995::1::::<><>::
+Chest Open 02.png::CompressedTexture2D::1271144183701356045::1715313976::1715313995::1::::<><>::
+Chest Open 03.png::CompressedTexture2D::4289279128825608982::1715313976::1715313995::1::::<><>::
+Chest Open 04.png::CompressedTexture2D::8441096160421064667::1715313976::1715313995::1::::<><>::
+Chest Open 05.png::CompressedTexture2D::8268876554705068188::1715313976::1715313995::1::::<><>::
+Chest Open 06.png::CompressedTexture2D::1415929829188472996::1715313976::1715313995::1::::<><>::
+Chest Open 07.png::CompressedTexture2D::7869765669291633938::1715313976::1715313995::1::::<><>::
+Chest Open 08.png::CompressedTexture2D::2153206809228590169::1715313976::1715313995::1::::<><>::
+Chest Open 09.png::CompressedTexture2D::5963189313756522764::1715313976::1715313995::1::::<><>::
+Chest Open 10.png::CompressedTexture2D::5626490277916789733::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeFour/Coin/::1715313976
+01.png::CompressedTexture2D::8135296351803209382::1715313976::1715313995::1::::<><>::
+02.png::CompressedTexture2D::4410299837490199244::1715313976::1715313995::1::::<><>::
+03.png::CompressedTexture2D::8760648642154559714::1715313976::1715313995::1::::<><>::
+04.png::CompressedTexture2D::9057340326967458639::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeFour/Flag/::1715313976
+Flag 01.png::CompressedTexture2D::5390881459147831922::1715313976::1715313995::1::::<><>::
+Flag 02.png::CompressedTexture2D::3534888192096303218::1715313976::1715313995::1::::<><>::
+Flag 03.png::CompressedTexture2D::8747368760842268267::1715313976::1715313995::1::::<><>::
+Flag 04.png::CompressedTexture2D::7979558061118104756::1715313976::1715313995::1::::<><>::
+Flag 05.png::CompressedTexture2D::6163309301748812982::1715313976::1715313995::1::::<><>::
+Flag 06.png::CompressedTexture2D::2693204171595416513::1715313976::1715313995::1::::<><>::
+Flag 07.png::CompressedTexture2D::84590326507727087::1715313976::1715313995::1::::<><>::
+Flag 08.png::CompressedTexture2D::7557820831379137007::1715313976::1715313995::1::::<><>::
+Flag 09.png::CompressedTexture2D::785358878746225149::1715313976::1715313995::1::::<><>::
+Platform.png::CompressedTexture2D::5666927555070465732::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeFour/Spikes/::1715313976
+Spikes.png::CompressedTexture2D::283529846196365845::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeFour/Spritesheet/::1715313976
+BG Image.png::CompressedTexture2D::6484004747893272889::1715313976::1715313995::1::::<><>::
+Spritesheet-export.png::CompressedTexture2D::3896714594079181524::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeNine/::1715313976
+Heart.png::CompressedTexture2D::5507585098424990287::1715313976::1715313995::1::::<><>::
+::res://Sprites/EpisodeOne/::1715313976
+::res://Sprites/EpisodeOne/09-Idle Sword/::1715313976
+Idle Sword 01.png::CompressedTexture2D::5152564903235003519::1715313976::1715313995::1::::<><>::
+Idle Sword 02.png::CompressedTexture2D::6348129713118482260::1715313976::1715313993::1::::<><>::
+Idle Sword 03.png::CompressedTexture2D::5968612229682587524::1715313976::1715313993::1::::<><>::
+Idle Sword 04.png::CompressedTexture2D::7660152531734124053::1715313976::1715313993::1::::<><>::
+Idle Sword 05.png::CompressedTexture2D::2748882379402985739::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeOne/Terrain/::1715313976
+Platform.png::CompressedTexture2D::4901735190788861092::1715313976::1715313993::1::::<><>::
+Terrain (32x32).png::CompressedTexture2D::1984133028254274583::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeSeven/::1715313976
+::res://Sprites/EpisodeSeven/01-Idle/::1715313976
+Idle 01.png::CompressedTexture2D::2412542295794758834::1715313976::1715313993::1::::<><>::
+Idle 02.png::CompressedTexture2D::5155249983117052129::1715313976::1715313993::1::::<><>::
+Idle 03.png::CompressedTexture2D::861345493896660939::1715313976::1715313993::1::::<><>::
+Idle 04.png::CompressedTexture2D::8269893211811251249::1715313976::1715313993::1::::<><>::
+Idle 05.png::CompressedTexture2D::4645785328143327197::1715313976::1715313993::1::::<><>::
+Idle 06.png::CompressedTexture2D::6704234050343866164::1715313976::1715313993::1::::<><>::
+Idle 07.png::CompressedTexture2D::5511065060226810866::1715313976::1715313993::1::::<><>::
+Idle 08.png::CompressedTexture2D::4103889674098018017::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeSeven/02-Run/::1715313976
+Run 01.png::CompressedTexture2D::902268495706907474::1715313976::1715313993::1::::<><>::
+Run 02.png::CompressedTexture2D::4215606720180059681::1715313976::1715313993::1::::<><>::
+Run 03.png::CompressedTexture2D::4664357519333043636::1715313976::1715313993::1::::<><>::
+Run 04.png::CompressedTexture2D::3787936682298139107::1715313976::1715313993::1::::<><>::
+Run 05.png::CompressedTexture2D::3439585599538622487::1715313976::1715313993::1::::<><>::
+Run 06.png::CompressedTexture2D::2133100604246519189::1715313976::1715313992::1::::<><>::
+::res://Sprites/EpisodeSeven/08-Hit/::1715313976
+Hit 01.png::CompressedTexture2D::4361418935730788251::1715313976::1715313992::1::::<><>::
+Hit 02.png::CompressedTexture2D::2740936912364031879::1715313976::1715313992::1::::<><>::
+Hit 03.png::CompressedTexture2D::4743504739581315312::1715313976::1715313992::1::::<><>::
+Hit 04.png::CompressedTexture2D::5153631309829731812::1715313976::1715313992::1::::<><>::
+::res://Sprites/EpisodeSeven/09-Dead Hit/::1715313976
+Dead Hit 01.png::CompressedTexture2D::8945307942578682154::1715313976::1715313992::1::::<><>::
+Dead Hit 02.png::CompressedTexture2D::5172399493162006033::1715313976::1715313992::1::::<><>::
+Dead Hit 03.png::CompressedTexture2D::3362434757323853830::1715313976::1715313992::1::::<><>::
+Dead Hit 04.png::CompressedTexture2D::7230421786273088951::1715313976::1715313992::1::::<><>::
+::res://Sprites/EpisodeSix/::1715313976
+::res://Sprites/EpisodeSix/15-Attack 1/::1715313976
+Attack 1 01.png::CompressedTexture2D::5766195402468674736::1715313976::1715313992::1::::<><>::
+Attack 1 02.png::CompressedTexture2D::6795242515542777265::1715313976::1715313992::1::::<><>::
+Attack 1 03.png::CompressedTexture2D::7663242966841929140::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeSix/16-Attack 2/::1715313976
+Attack 2 01.png::CompressedTexture2D::8556321134305929134::1715313976::1715313993::1::::<><>::
+Attack 2 02.png::CompressedTexture2D::7383844116463627413::1715313976::1715313993::1::::<><>::
+Attack 2 03.png::CompressedTexture2D::5784444753844419771::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeSix/17-Attack 3/::1715313976
+Attack 3 01.png::CompressedTexture2D::3760194939535207189::1715313976::1715313993::1::::<><>::
+Attack 3 02.png::CompressedTexture2D::2745643847130239648::1715313976::1715313993::1::::<><>::
+Attack 3 03.png::CompressedTexture2D::8273413212018501885::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeSixteen/::1715313976
+Coin.png::CompressedTexture2D::4846460328162557896::1715313976::1715313993::1::::<><>::
+Health.png::CompressedTexture2D::3458886228534658915::1715313976::1715313994::1::::<><>::
+Skull.png::CompressedTexture2D::8390830997842406689::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTen/::1715313976
+SingleTile.png::CompressedTexture2D::864239978107528206::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeThree/::1715313976
+::res://Sprites/EpisodeThree/Terrain/::1715313976
+Platform.png::CompressedTexture2D::4901735190788861092::1715313976::1715313994::1::::<><>::
+Terrain (32x32).png::CompressedTexture2D::1984133028254274583::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/::1715313976
+::res://Sprites/EpisodeTwo/10-Run Sword/::1715313976
+Run Sword 01.png::CompressedTexture2D::2809325994931831781::1715313976::1715313994::1::::<><>::
+Run Sword 02.png::CompressedTexture2D::3171410614588635093::1715313976::1715313994::1::::<><>::
+Run Sword 03.png::CompressedTexture2D::8009824479346973991::1715313976::1715313994::1::::<><>::
+Run Sword 04.png::CompressedTexture2D::4230820013309627121::1715313976::1715313994::1::::<><>::
+Run Sword 05.png::CompressedTexture2D::4223122257117166642::1715313976::1715313994::1::::<><>::
+Run Sword 06.png::CompressedTexture2D::8295415278286704100::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/11-Jump Sword/::1715313976
+Jump Sword 01.png::CompressedTexture2D::4123101375342465445::1715313976::1715313994::1::::<><>::
+Jump Sword 02.png::CompressedTexture2D::9096322705333009327::1715313976::1715313994::1::::<><>::
+Jump Sword 03.png::CompressedTexture2D::3685469006680727112::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/12-Fall Sword/::1715313976
+Fall Sword 01.png::CompressedTexture2D::3776600399849152093::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/13-Ground Sword/::1715313976
+Ground Sword 01.png::CompressedTexture2D::7079129099388936573::1715313976::1715313994::1::::<><>::
+Ground Sword 02.png::CompressedTexture2D::5077320225464398256::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/14-Hit Sword/::1715313976
+Hit Sword 01.png::CompressedTexture2D::5577907321831693037::1715313976::1715313994::1::::<><>::
+Hit Sword 02.png::CompressedTexture2D::6811970040293276616::1715313976::1715313994::1::::<><>::
+Hit Sword 03.png::CompressedTexture2D::77845464434878588::1715313976::1715313994::1::::<><>::
+Hit Sword 04.png::CompressedTexture2D::900095695685453184::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeTwo/15-Attack 1/::1715313976
+Attack 1 01.png::CompressedTexture2D::4925362139454084623::1715313976::1715313993::1::::<><>::
+Attack 1 02.png::CompressedTexture2D::6687869812589137612::1715313976::1715313993::1::::<><>::
+Attack 1 03.png::CompressedTexture2D::8563562909638671843::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeTwo/16-Attack 2/::1715313976
+Attack 2 01.png::CompressedTexture2D::7317166819295620268::1715313976::1715313993::1::::<><>::
+Attack 2 02.png::CompressedTexture2D::1870067620816680009::1715313976::1715313993::1::::<><>::
+Attack 2 03.png::CompressedTexture2D::8350400930276344908::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeTwo/17-Attack 3/::1715313976
+Attack 3 01.png::CompressedTexture2D::2356700109330731726::1715313976::1715313993::1::::<><>::
+Attack 3 02.png::CompressedTexture2D::6767605434808874665::1715313976::1715313993::1::::<><>::
+Attack 3 03.png::CompressedTexture2D::923621692341379788::1715313976::1715313993::1::::<><>::
+::res://Sprites/EpisodeTwo/18-Air Attack 1/::1715313976
+Air Attack 1 01.png::CompressedTexture2D::7570374533516706481::1715313976::1715313994::1::::<><>::
+Air Attack 1 02.png::CompressedTexture2D::5838853580406216688::1715313976::1715313994::1::::<><>::
+Air Attack 1 03.png::CompressedTexture2D::4251058419948171979::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/19-Air Attack 2/::1715313976
+Air Attack 2 01.png::CompressedTexture2D::6216114518152816825::1715313976::1715313994::1::::<><>::
+Air Attack 2 02.png::CompressedTexture2D::3335809658328467069::1715313976::1715313994::1::::<><>::
+Air Attack 2 03.png::CompressedTexture2D::1466692178024306370::1715313976::1715313994::1::::<><>::
+::res://Sprites/EpisodeTwo/20-Throw Sword/::1715313976
+Throw Sword 01.png::CompressedTexture2D::4081278204158161351::1715313976::1715313994::1::::<><>::
+Throw Sword 02.png::CompressedTexture2D::7813155213299602055::1715313976::1715313994::1::::<><>::
+Throw Sword 03.png::CompressedTexture2D::3102708400715502569::1715313976::1715313994::1::::<><>::

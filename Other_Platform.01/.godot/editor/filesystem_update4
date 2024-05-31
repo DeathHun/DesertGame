@@ -1,0 +1,3 @@
+res://Scenes/WorldScene/level_one.tscn
+res://Scripts/Player.gd
+res://Scenes/Entities/player.tscn

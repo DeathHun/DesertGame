@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=3 uid="uid://q4786ho3pop8"]
+
+[ext_resource type="Script" path="res://Scripts/Interactables/coin.gd" id="1_xxggl"]
+[ext_resource type="Texture2D" uid="uid://dn52e3sicx4vq" path="res://Sprites/EpisodeFour/Coin/01.png" id="2_y1b75"]
+[ext_resource type="Texture2D" uid="uid://b33m82baxl237" path="res://Sprites/EpisodeFour/Coin/02.png" id="3_nqnvr"]
+[ext_resource type="Texture2D" uid="uid://dw2yurj03x71w" path="res://Sprites/EpisodeFour/Coin/03.png" id="4_48oh4"]
+[ext_resource type="Texture2D" uid="uid://d2bpcpdu032qt" path="res://Sprites/EpisodeFour/Coin/04.png" id="5_gx0ll"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ju7fc"]
+radius = 6.0
+
+[sub_resource type="Animation" id="Animation_30c7n"]
+resource_name = "Idle"
+length = 0.45
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("2_y1b75"), ExtResource("3_nqnvr"), ExtResource("4_48oh4"), ExtResource("5_gx0ll")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1kfc1"]
+_data = {
+"Idle": SubResource("Animation_30c7n")
+}
+
+[node name="Coin" type="Node2D"]
+script = ExtResource("1_xxggl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.45139, 1.45139)
+texture = ExtResource("2_y1b75")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D"]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
+position = Vector2(0.374577, 0.404663)
+shape = SubResource("CircleShape2D_ju7fc")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_1kfc1")
+}
+
+[connection signal="area_entered" from="Sprite2D/Area2D" to="." method="_on_area_2d_area_entered"]
