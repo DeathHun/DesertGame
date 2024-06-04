@@ -1,20 +1,57 @@
-[gd_scene load_steps=3 format=3 uid="uid://c8sj5e6f0r1qa"]
+[gd_scene load_steps=15 format=3 uid="uid://c8sj5e6f0r1qa"]
 
-[ext_resource type="Texture2D" uid="uid://eblxvt5d6e74" path="res://Sprites/EpisodeFour/Spikes/Spikes.png" id="1_8csva"]
 [ext_resource type="Script" path="res://Scripts/Interactables/spikes.gd" id="1_iui0h"]
+[ext_resource type="Texture2D" uid="uid://capwwxlf8tnk1" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-10.png" id="2_rms80"]
+[ext_resource type="Texture2D" uid="uid://bifydohojjc0o" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-0.png" id="3_ca0d1"]
+[ext_resource type="Texture2D" uid="uid://bcbr5cpif5uq3" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-1.png" id="4_1tvvy"]
+[ext_resource type="Texture2D" uid="uid://ykdgikd38d3y" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-2.png" id="5_3og83"]
+[ext_resource type="Texture2D" uid="uid://dc8e1gq5rsugh" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-3.png" id="6_nojph"]
+[ext_resource type="Texture2D" uid="uid://dctig6mddnp05" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-4.png" id="7_qr3ki"]
+[ext_resource type="Texture2D" uid="uid://f30l7xdvlvhg" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-5.png" id="8_8eb2l"]
+[ext_resource type="Texture2D" uid="uid://qla3kwjtjfli" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-6.png" id="9_3bssc"]
+[ext_resource type="Texture2D" uid="uid://bskhgl0gk6xys" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-7.png" id="10_b8b6q"]
+[ext_resource type="Texture2D" uid="uid://crw14fhnj1hmt" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-8.png" id="11_wkdwn"]
+[ext_resource type="Texture2D" uid="uid://bltlpisee36vf" path="res://Game_Assets/Sandworm_trap_-_Level_1_cuts/image_0-9.png" id="12_1tvml"]
 
-[node name="Spikes" type="Node2D"]
+[sub_resource type="Animation" id="Animation_jm8mc"]
+resource_name = "Attacking"
+length = 0.5
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("3_ca0d1"), ExtResource("4_1tvvy"), ExtResource("5_3og83"), ExtResource("6_nojph"), ExtResource("7_qr3ki"), ExtResource("8_8eb2l"), ExtResource("9_3bssc"), ExtResource("10_b8b6q"), ExtResource("11_wkdwn"), ExtResource("12_1tvml"), ExtResource("2_rms80")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oogpp"]
+_data = {
+"Attacking": SubResource("Animation_jm8mc")
+}
+
+[node name="WormTrap" type="Node2D"]
 script = ExtResource("1_iui0h")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_8csva")
+texture = ExtResource("2_rms80")
 
 [node name="Area2D" type="Area2D" parent="."]
 monitorable = false
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
-position = Vector2(0, 0.28125)
+position = Vector2(-1, 0)
 scale = Vector2(1, 1.0625)
-polygon = PackedVector2Array(-16, 8.20588, -13, 5.38235, -5, 0, 4, 3, 12, 1, 16, 7, 16, 15, -15, 15)
+polygon = PackedVector2Array(-14, 7.52941, -10, 7.52941, -4, 7.52941, 5, 7.52941, 11, 7.52941, 16, 7.52941, 16, 15, -14, 15.0588)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_oogpp")
+}
 
 [connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

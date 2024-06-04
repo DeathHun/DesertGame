@@ -27,6 +27,40 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_as4gn"]
 size = Vector2(23, 23)
 
+[sub_resource type="Animation" id="Animation_lnidf"]
+resource_name = "Dead_Hit"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("19_tbvx2"), ExtResource("20_iwoqy"), ExtResource("21_qif54"), ExtResource("22_pfjro")]
+}
+
+[sub_resource type="Animation" id="Animation_lcdtb"]
+resource_name = "Hit"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("15_50t23"), ExtResource("16_mj2la"), ExtResource("17_vqcj3"), ExtResource("18_ikfdc")]
+}
+
 [sub_resource type="Animation" id="Animation_un4o5"]
 resource_name = "Idle"
 length = 0.7
@@ -59,40 +93,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [ExtResource("9_v5to3"), ExtResource("10_irnw8"), ExtResource("11_pjvy7"), ExtResource("12_rb7po"), ExtResource("13_e2b0n"), ExtResource("14_645m1")]
-}
-
-[sub_resource type="Animation" id="Animation_lcdtb"]
-resource_name = "Hit"
-length = 0.3
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("15_50t23"), ExtResource("16_mj2la"), ExtResource("17_vqcj3"), ExtResource("18_ikfdc")]
-}
-
-[sub_resource type="Animation" id="Animation_lnidf"]
-resource_name = "Dead_Hit"
-length = 0.3
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("19_tbvx2"), ExtResource("20_iwoqy"), ExtResource("21_qif54"), ExtResource("22_pfjro")]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3dr8k"]
