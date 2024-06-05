@@ -1,107 +1,39 @@
 [gd_scene load_steps=41 format=3 uid="uid://d17ejxaqp08vu"]
 
 [ext_resource type="Script" path="res://Scripts/Entities/Player.gd" id="1_1uckq"]
-[ext_resource type="Texture2D" uid="uid://dct1axvwt8ct" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_8.png" id="2_sm0uy"]
-[ext_resource type="Texture2D" uid="uid://csimocowf0l6m" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_1.png" id="3_fwn3s"]
-[ext_resource type="Texture2D" uid="uid://v077escy6aj5" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_2.png" id="4_kqr7y"]
-[ext_resource type="Texture2D" uid="uid://1giujjehp6xa" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_3.png" id="5_nvvjb"]
-[ext_resource type="Texture2D" uid="uid://bck6pqlyl6ijk" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_4.png" id="6_kb38h"]
-[ext_resource type="Texture2D" uid="uid://bld1sb2f8u6mx" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_5.png" id="7_8mkqv"]
-[ext_resource type="Texture2D" uid="uid://b4pm8oo67x7ax" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_6.png" id="8_2vik4"]
-[ext_resource type="Texture2D" uid="uid://u8ufa7u3164h" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_7.png" id="9_bad0f"]
-[ext_resource type="Texture2D" uid="uid://c1lfhe4ek22wx" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_8.png" id="10_1ohu3"]
-[ext_resource type="Texture2D" uid="uid://begec8rxc0l3k" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_1.png" id="11_yvw6e"]
-[ext_resource type="Texture2D" uid="uid://8ounh6rtwfc6" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_2.png" id="12_d8dyk"]
-[ext_resource type="Texture2D" uid="uid://dwyu1y7vvovib" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_3.png" id="13_flc8j"]
-[ext_resource type="Texture2D" uid="uid://b3x7xhkpqs281" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_4.png" id="14_tek70"]
-[ext_resource type="Texture2D" uid="uid://nl64pp684c3c" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_5.png" id="15_uvnt0"]
-[ext_resource type="Texture2D" uid="uid://dkxrk263hgkh" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_6.png" id="16_fjvfd"]
-[ext_resource type="Texture2D" uid="uid://ovenroxtvu1r" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_7.png" id="17_a2q4c"]
-[ext_resource type="Texture2D" uid="uid://dcjk1g6t62okl" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_8.png" id="18_pasc2"]
-[ext_resource type="Texture2D" uid="uid://dec2txygvns1l" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_1.png" id="19_n0vvm"]
-[ext_resource type="Texture2D" uid="uid://cu2dfrbsr8e4c" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_2.png" id="20_qrtar"]
-[ext_resource type="Texture2D" uid="uid://cowssljfmpmfd" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_3.png" id="21_tlm5q"]
-[ext_resource type="Texture2D" uid="uid://b8havxdo2tlf3" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_1.png" id="22_r3pcy"]
-[ext_resource type="Texture2D" uid="uid://b4st1pheby84t" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_2.png" id="23_h8m8j"]
-[ext_resource type="Texture2D" uid="uid://ct1iatnjiy17d" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_3.png" id="24_pkks7"]
-[ext_resource type="Texture2D" uid="uid://dd0c6spcv3hyo" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_1.png" id="25_tah5f"]
-[ext_resource type="Texture2D" uid="uid://bugktcpvvgdfm" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_2.png" id="26_raieh"]
-[ext_resource type="Texture2D" uid="uid://0nhdagbr1fmi" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_3.png" id="27_xvb2c"]
-[ext_resource type="Texture2D" uid="uid://bjogakxg7rmnj" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_4.png" id="28_ljgbu"]
-[ext_resource type="Texture2D" uid="uid://cm880vomwyth" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_5.png" id="29_78nvl"]
-[ext_resource type="Texture2D" uid="uid://cia8qvht57e5g" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_6.png" id="30_cfebt"]
-[ext_resource type="Texture2D" uid="uid://v7ofss0hrrap" path="res://Game_Assets/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_7.png" id="31_lkf2m"]
+[ext_resource type="Texture2D" uid="uid://dct1axvwt8ct" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_8.png" id="2_sm0uy"]
+[ext_resource type="Texture2D" uid="uid://csimocowf0l6m" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_1.png" id="3_fwn3s"]
+[ext_resource type="Texture2D" uid="uid://v077escy6aj5" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_2.png" id="4_kqr7y"]
+[ext_resource type="Texture2D" uid="uid://1giujjehp6xa" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_3.png" id="5_nvvjb"]
+[ext_resource type="Texture2D" uid="uid://bck6pqlyl6ijk" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_4.png" id="6_kb38h"]
+[ext_resource type="Texture2D" uid="uid://bld1sb2f8u6mx" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_5.png" id="7_8mkqv"]
+[ext_resource type="Texture2D" uid="uid://b4pm8oo67x7ax" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_6.png" id="8_2vik4"]
+[ext_resource type="Texture2D" uid="uid://u8ufa7u3164h" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_7.png" id="9_bad0f"]
+[ext_resource type="Texture2D" uid="uid://c1lfhe4ek22wx" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_8.png" id="10_1ohu3"]
+[ext_resource type="Texture2D" uid="uid://begec8rxc0l3k" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_1.png" id="11_yvw6e"]
+[ext_resource type="Texture2D" uid="uid://8ounh6rtwfc6" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_2.png" id="12_d8dyk"]
+[ext_resource type="Texture2D" uid="uid://dwyu1y7vvovib" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_3.png" id="13_flc8j"]
+[ext_resource type="Texture2D" uid="uid://b3x7xhkpqs281" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_4.png" id="14_tek70"]
+[ext_resource type="Texture2D" uid="uid://nl64pp684c3c" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_5.png" id="15_uvnt0"]
+[ext_resource type="Texture2D" uid="uid://dkxrk263hgkh" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_6.png" id="16_fjvfd"]
+[ext_resource type="Texture2D" uid="uid://ovenroxtvu1r" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_7.png" id="17_a2q4c"]
+[ext_resource type="Texture2D" uid="uid://dcjk1g6t62okl" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_8.png" id="18_pasc2"]
+[ext_resource type="Texture2D" uid="uid://dec2txygvns1l" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_1.png" id="19_n0vvm"]
+[ext_resource type="Texture2D" uid="uid://cu2dfrbsr8e4c" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_2.png" id="20_qrtar"]
+[ext_resource type="Texture2D" uid="uid://cowssljfmpmfd" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_3.png" id="21_tlm5q"]
+[ext_resource type="Texture2D" uid="uid://b8havxdo2tlf3" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_1.png" id="22_r3pcy"]
+[ext_resource type="Texture2D" uid="uid://b4st1pheby84t" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_2.png" id="23_h8m8j"]
+[ext_resource type="Texture2D" uid="uid://ct1iatnjiy17d" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_3.png" id="24_pkks7"]
+[ext_resource type="Texture2D" uid="uid://dd0c6spcv3hyo" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_1.png" id="25_tah5f"]
+[ext_resource type="Texture2D" uid="uid://bugktcpvvgdfm" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_2.png" id="26_raieh"]
+[ext_resource type="Texture2D" uid="uid://0nhdagbr1fmi" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_3.png" id="27_xvb2c"]
+[ext_resource type="Texture2D" uid="uid://bjogakxg7rmnj" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_4.png" id="28_ljgbu"]
+[ext_resource type="Texture2D" uid="uid://cm880vomwyth" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_5.png" id="29_78nvl"]
+[ext_resource type="Texture2D" uid="uid://cia8qvht57e5g" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_6.png" id="30_cfebt"]
+[ext_resource type="Texture2D" uid="uid://v7ofss0hrrap" path="res://Game_Assets/DesertStuff/elementals_wind_hashashin_FREE_v1.1/PNG/1_atk/1_atk_7.png" id="31_lkf2m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t8lrd"]
 size = Vector2(18.2376, 21.8578)
-
-[sub_resource type="Animation" id="Animation_5sw1l"]
-resource_name = "Run"
-length = 0.7
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("3_fwn3s"), ExtResource("4_kqr7y"), ExtResource("5_nvvjb"), ExtResource("6_kb38h"), ExtResource("7_8mkqv"), ExtResource("8_2vik4"), ExtResource("9_bad0f"), ExtResource("10_1ohu3")]
-}
-
-[sub_resource type="Animation" id="Animation_h6hym"]
-resource_name = "Idle"
-length = 0.7
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("11_yvw6e"), ExtResource("12_d8dyk"), ExtResource("13_flc8j"), ExtResource("14_tek70"), ExtResource("15_uvnt0"), ExtResource("16_fjvfd"), ExtResource("17_a2q4c"), ExtResource("18_pasc2")]
-}
-
-[sub_resource type="Animation" id="Animation_p0ckp"]
-resource_name = "Fall"
-length = 0.2
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 1,
-"values": [ExtResource("19_n0vvm"), ExtResource("20_qrtar"), ExtResource("21_tlm5q")]
-}
-
-[sub_resource type="Animation" id="Animation_jc8gf"]
-resource_name = "Jump"
-length = 0.2
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 1,
-"values": [ExtResource("22_r3pcy"), ExtResource("23_h8m8j"), ExtResource("24_pkks7")]
-}
 
 [sub_resource type="Animation" id="Animation_p8ttd"]
 resource_name = "Attack"
@@ -131,6 +63,74 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_p0ckp"]
+resource_name = "Fall"
+length = 0.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("19_n0vvm"), ExtResource("20_qrtar"), ExtResource("21_tlm5q")]
+}
+
+[sub_resource type="Animation" id="Animation_h6hym"]
+resource_name = "Idle"
+length = 0.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("11_yvw6e"), ExtResource("12_d8dyk"), ExtResource("13_flc8j"), ExtResource("14_tek70"), ExtResource("15_uvnt0"), ExtResource("16_fjvfd"), ExtResource("17_a2q4c"), ExtResource("18_pasc2")]
+}
+
+[sub_resource type="Animation" id="Animation_jc8gf"]
+resource_name = "Jump"
+length = 0.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("22_r3pcy"), ExtResource("23_h8m8j"), ExtResource("24_pkks7")]
+}
+
+[sub_resource type="Animation" id="Animation_5sw1l"]
+resource_name = "Run"
+length = 0.7
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("3_fwn3s"), ExtResource("4_kqr7y"), ExtResource("5_nvvjb"), ExtResource("6_kb38h"), ExtResource("7_8mkqv"), ExtResource("8_2vik4"), ExtResource("9_bad0f"), ExtResource("10_1ohu3")]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_27e12"]
