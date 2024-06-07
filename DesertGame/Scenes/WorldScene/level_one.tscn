@@ -1,9 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://byl1drg3qhgfg"]
+[gd_scene load_steps=11 format=3 uid="uid://byl1drg3qhgfg"]
 
 [ext_resource type="Texture2D" uid="uid://cij5x8i6ihavy" path="res://Game_Assets/Tilemap/monochrome_tilemap_packed.png" id="1_732g7"]
 [ext_resource type="PackedScene" uid="uid://d17ejxaqp08vu" path="res://Scenes/Entities/player.tscn" id="2_8nik0"]
 [ext_resource type="Texture2D" uid="uid://cdxpj827egiu2" path="res://Game_Assets/Golden Coin/image_0-0-1.png.png" id="3_ead1e"]
 [ext_resource type="PackedScene" uid="uid://q4786ho3pop8" path="res://Scenes/Interactables/coin.tscn" id="5_u18r7"]
+[ext_resource type="PackedScene" uid="uid://c8sj5e6f0r1qa" path="res://Scenes/Interactables/spikes.tscn" id="6_mf7ju"]
+[ext_resource type="PackedScene" uid="uid://cjvy8mmkc3brs" path="res://Scenes/Interactables/checkpoint.tscn" id="7_ub0op"]
 [ext_resource type="Script" path="res://Scripts/UI/UiManager.gd" id="8_w4nnm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bo0u6"]
@@ -2560,10 +2562,10 @@ sources/1 = SubResource("TileSetAtlasSource_h0lde")
 [node name="LevelOne" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -1169.0
-offset_top = -442.0
-offset_right = -1129.0
-offset_bottom = -402.0
+offset_left = -1133.0
+offset_top = -364.0
+offset_right = -1093.0
+offset_bottom = -324.0
 scale = Vector2(108.553, 53.5434)
 color = Color(0, 0, 0, 1)
 
@@ -2604,3 +2606,9 @@ position = Vector2(199, 564)
 
 [node name="Coin" parent="." instance=ExtResource("5_u18r7")]
 position = Vector2(281, 499)
+
+[node name="WormTrap" parent="." instance=ExtResource("6_mf7ju")]
+position = Vector2(340, 753)
+
+[node name="Checkpoint" parent="." instance=ExtResource("7_ub0op")]
+position = Vector2(128, 599)
