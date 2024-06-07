@@ -5,9 +5,12 @@ var speed = -60
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 var facing_right =  false
+@onready var sprite = $AnimatedSprite2D
 
 func _ready():
-	$AnimationPlayer.play("Run")
+	sprite.play("Run")
+	sprite.flip_h 
+	
 
 func _physics_process(delta):
 	

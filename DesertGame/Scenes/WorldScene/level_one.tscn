@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://byl1drg3qhgfg"]
+[gd_scene load_steps=12 format=3 uid="uid://byl1drg3qhgfg"]
 
 [ext_resource type="Texture2D" uid="uid://cij5x8i6ihavy" path="res://Game_Assets/Tilemap/monochrome_tilemap_packed.png" id="1_732g7"]
 [ext_resource type="PackedScene" uid="uid://d17ejxaqp08vu" path="res://Scenes/Entities/player.tscn" id="2_8nik0"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://q4786ho3pop8" path="res://Scenes/Interactables/coin.tscn" id="5_u18r7"]
 [ext_resource type="PackedScene" uid="uid://c8sj5e6f0r1qa" path="res://Scenes/Interactables/spikes.tscn" id="6_mf7ju"]
 [ext_resource type="PackedScene" uid="uid://cjvy8mmkc3brs" path="res://Scenes/Interactables/checkpoint.tscn" id="7_ub0op"]
+[ext_resource type="PackedScene" uid="uid://b14q5wl5f5twu" path="res://Scenes/Entities/WheelBadGuy.tscn" id="8_hins5"]
 [ext_resource type="Script" path="res://Scripts/UI/UiManager.gd" id="8_w4nnm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bo0u6"]
@@ -2608,7 +2609,10 @@ position = Vector2(199, 564)
 position = Vector2(281, 499)
 
 [node name="WormTrap" parent="." instance=ExtResource("6_mf7ju")]
-position = Vector2(340, 753)
+position = Vector2(459, 714)
 
 [node name="Checkpoint" parent="." instance=ExtResource("7_ub0op")]
 position = Vector2(128, 599)
+
+[node name="WheelBadGuy" parent="." instance=ExtResource("8_hins5")]
+position = Vector2(395, 726)

@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/Interactables/spikes.gd" id="1_iui0h"]
 [ext_resource type="Texture2D" uid="uid://c1nk2nt27rm33" path="res://Game_Assets/Individual Spike.png" id="2_v2bf6"]
 
-[node name="WormTrap" type="Node2D"]
+[node name="Spikes" type="Node2D"]
 script = ExtResource("1_iui0h")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
